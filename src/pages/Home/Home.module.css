@@ -1,0 +1,61 @@
+.home {
+  height: 100%;
+}
+
+.home_section_button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.home_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 150px;
+}
+
+.home_drawer {
+  width: 35vw;
+}
+
+.home_drawer_title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: #1275b8;
+}
+
+.section_loading {
+  height: calc(100vh - 147px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_error {
+  height: calc(100vh - 147px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1275b8;
+  padding: 20px;
+}
+
+.section_error h2 {
+  font-size: 700;
+  text-align: center;
+}
+
+.section_error span {
+  font-size: 700;
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}

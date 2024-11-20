@@ -1,0 +1,20 @@
+.login_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+}
+
+.login_form_fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 10px;
+  border: 0;
+}
+
+.login_form_fieldset__input {
+  margin-bottom: 10px;
+}
